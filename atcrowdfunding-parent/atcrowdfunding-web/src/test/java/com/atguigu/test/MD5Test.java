@@ -10,4 +10,7 @@ public class MD5Test {
 		String string = DigestUtils.md5DigestAsHex("123123".getBytes());
 		System.out.println(string);
 	}
+	public void mdTest(){
+		System.out.println("aaaaaa");
+	}
 }
