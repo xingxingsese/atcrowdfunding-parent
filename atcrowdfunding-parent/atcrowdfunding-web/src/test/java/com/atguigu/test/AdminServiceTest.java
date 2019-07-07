@@ -2,14 +2,15 @@ package com.atguigu.test;
 
 import java.util.List;
 
+import com.atguigu.atcrowdfunding.api.AdminService;
+import com.atguigu.atcrowdfunding.bean.TAdmin;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.atguigu.atcrowdfunding.api.AdminService;
-import com.atguigu.atcrowdfunding.bean.TAdmin;
+
 /**
  * 引入spring的单元测试
  * 	junit 和sping-test
@@ -25,12 +26,12 @@ import com.atguigu.atcrowdfunding.bean.TAdmin;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class AdminServiceTest {
 
-	@Autowired
-	AdminService adminService;
+	 /*@Autowired
+   AdminService adminService;
 	
 	@Test
 	public void pageTest() {
 		List<TAdmin> admin = adminService.listAllAdmin();
 		System.out.println(admin.size());
-	}
+	}*/
 }
